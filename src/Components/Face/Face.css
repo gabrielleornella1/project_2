@@ -1,0 +1,22 @@
+
+.FaceMapDiv {
+    margin: 1rem 0 2rem;
+    Padding: 1rem;
+    box-shadow: 1px 10px 12px rgb(206, 90, 110);
+    transition: box-shadow 250ms ease-in-out;
+}
+
+.FaceMapDiv:hover {
+    box-shadow: 2px 7px 7px rgb(142, 209, 235);
+}
+
+img {
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+}
+
+
+
+

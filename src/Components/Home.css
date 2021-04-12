@@ -1,0 +1,55 @@
+ * {
+     box-sizing: border-box;
+
+ }
+ 
+ .homediv{
+    background-image: 
+    url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F14%2F2020%2F05%2F14%2F051320-fenty-beauty-sale-lead.jpg&h=750");
+    
+
+    background-position: center, bottom right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ .div2 {
+     width: 
+     
+ }
+ .img {
+     float: left;
+     width: 40%;
+     padding: 0.5px;
+     position: bottom;
+
+     
+     
+ }
+ .div2::after {
+     content: "";
+     clear: both;
+     display: table;
+ }
+ h1 {
+
+     margin-left: auto;
+     margin-right: auto;
+     width: 40em;
+     
+
+ }
+
+ @media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 2vw;
+        display: 
+        
+    
+    }
+    nav {
+        background-color: #D6EFFF;
+    }
+}
+ 
+     
+ 

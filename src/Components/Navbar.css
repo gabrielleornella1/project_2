@@ -1,0 +1,29 @@
+nav {
+    width: 100vw;
+    height: 10vw;
+    background-color: #D6EFFF;
+    
+}
+
+ ul {
+    margin: 0;
+    padding: 45px 25px;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    text-decoration: none;
+    
+}
+@media only screen and (max-width: 500px) {
+    ul {
+        flex-direction: column;
+        margin: 0;
+        display: block;
+    
+    }
+    nav {
+        background-color: #D6EFFF;
+    }
+}
